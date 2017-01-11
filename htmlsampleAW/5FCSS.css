@@ -1,0 +1,99 @@
+body {
+    background-image:url('http://media.tumblr.com/692f6bac1d2268d4aa9ba3ef3b6dbc92/tumblr_inline_mu7vetzlSL1r9d47c.gif');
+    margin-top:1cm;
+    margin-left:2cm;
+    margin-right:2cm;
+    margin-bottom:1cm;
+    cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-random/random-needle.gif'),auto;
+}
+.title {
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+    font-family:consolas;
+}
+.body {
+    border:1px inset #626262;
+    margin:auto;
+    width:1100px;
+    text-indent:20px;
+    background-color:#ffffff;
+    font-family:times;
+}
+.navigation {
+    text-align:center;
+    font-family:consolas;
+    font-variant:small-caps;
+    font-size:20px;
+}
+
+.navigation,.body {
+    margin-bottom:1.3cm;
+    padding:8px;
+}
+.navigation p,.body p {
+    padding:5px;
+    font-size:13px;
+    line-height:150%;
+}
+#img {
+   text-align:center;
+   font-style:italic;
+   font-family:consolas;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family:consolas;
+    font-variant:small-caps;
+}
+h2,h3,h4,h5,h6 {
+   text-decoration:underline;
+   font-family:courier new;
+}
+a:active,a:link,a:visited {
+    font-family:consolas;
+    color:#929292;
+    text-decoration:none;
+    cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-random/random-injection.gif'),auto;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+}
+a:hover {
+    font-family:consolas;
+    color:#323232;
+    text-decoration:line-through;
+    cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-random/random-injection.gif'),auto;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+}
+
+img {
+   display:block;
+   margin:auto;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+    background-color:#FFFFFF !important;
+}
+::-webkit-scrollbar-thumb:vertical {
+    height: 20px !important;
+    background-color: #000000 !important;
+}
+::selection {
+    background-color:#6a006a;
+    color:#77003c;
+}
+::moz-selection {
+    background-color:#ffffff;
+    color:#ffffff;
+}
